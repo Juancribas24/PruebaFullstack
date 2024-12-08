@@ -53,11 +53,11 @@
 # Capturas
 Frontend
 
-![Captura de la interfaz del Frontend](screenshots/UIPrueba.png)
+![Captura de la interfaz del Frontend](PruebaFullstack\screenshots\UIPrueba.png)
 
 Backend
 
-![Captura del Backend con Django](screenshots/DjangoRestPrueba.png)   
+![Captura del Backend con Django](PruebaFullstack\screenshots\DjangoRestPrueba.png)   
 
 Contacto
 Creador: [Juancribas]
