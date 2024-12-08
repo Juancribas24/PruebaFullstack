@@ -1,0 +1,125 @@
+/* Estilos globales */
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #2d2d2d; /* Fondo oscuro */
+  color: #fff; /* Texto blanco */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Altura completa de la ventana */
+  overflow: hidden; /* Evita scroll innecesario */
+}
+
+/* Contenedor principal */
+.app-container {
+  width: 100%;
+  max-width: 400px; /* Limitar el ancho del contenido */
+  text-align: center; /* Centrar el texto */
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 2rem;
+  color: #f5f5f5;
+}
+
+/* Formulario */
+.form {
+  background-color: #3d3d3d; /* Fondo del formulario */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px; /* Espacio debajo del formulario */
+}
+
+/* Inputs y botones */
+.input,
+.button {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+}
+
+.input {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px; /* Agrega un padding uniforme */
+  border-radius: 5px;
+  border: none;
+  font-size: 1rem;
+  background-color: #f5f5f5;
+  color: #333;
+  box-sizing: border-box; /* Asegura que el padding no rompa el diseño */
+}
+
+
+.button {
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+  font-weight: bold;
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.button.cancel {
+  background-color: #dc3545;
+}
+
+.button.cancel:hover {
+  background-color: #a71d2a;
+}
+
+/* Lista de elementos */
+.item-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.item {
+  background-color: #3d3d3d;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item span {
+  color: #f5f5f5;
+}
+
+.edit-btn {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.edit-btn:hover {
+  background-color: #0056b3;
+}
+
+.delete-btn {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #a71d2a;
+}
