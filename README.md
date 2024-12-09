@@ -20,7 +20,7 @@
 
 ## Instalación
 ##### Clona el repositorio
-`git clone https://github.com/tu-usuario/tu-repositorio.git`
+`git clone https://github.com/Juancribas24/PruebaFullstack.git`
 
 `cd PruebaFullstack`
 
